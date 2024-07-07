@@ -5,14 +5,6 @@
 [manager]
 
 keymap = [
-    #custom
-    {on = ["R", "D"], run = "plugin sudo --args='remove -P'", desc = "sudo delete"},
-    {on = ["R", "d"], run = "plugin sudo --args='remove'",    desc = "sudo trash"},
-    {on = ["R", "a"], run = "plugin sudo --args='create'",    desc = "sudo create"},
-    {on = ["R", "l"], run = "plugin sudo --args='link'",      desc = "sudo link"},
-    {on = ["R", "r"], run = "plugin sudo --args='rename'",    desc = "sudo rename"},
-    {on = ["R", "p"], run = "plugin sudo --args='paste'",     desc = "sudo paste"},
-    #custom
 	{ on = [ "<Esc>" ], run = "escape",             desc = "Exit visual mode, clear selected, or cancel search" },
 	{ on = [ "<C-[>" ], run = "escape",             desc = "Exit visual mode, clear selected, or cancel search" },
 	{ on = [ "q" ],     run = "quit",               desc = "Exit the process" },
