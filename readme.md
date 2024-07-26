@@ -1,0 +1,1 @@
+- i'm using the yazi-git from aur.
