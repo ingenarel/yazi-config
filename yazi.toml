@@ -8,10 +8,10 @@ sort_by        = "alphabetical"
 sort_sensitive = false
 sort_reverse   = false
 sort_dir_first = true
-linemode       = "none"
+linemode       = "size_and_mtime"
 show_hidden    = true
 show_symlink   = true
-scrolloff      = 5
+scrolloff      = 32
 
 [preview]
 tab_size        = 2
