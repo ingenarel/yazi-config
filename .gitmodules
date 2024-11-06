@@ -1,4 +1,0 @@
-[submodule "plugins/omp.yazi"]
-	path = plugins/omp.yazi
-	url = git@github.com:ingenarel/omp.yazi.git
-	url = git@gitlab.com:ingenarel/omp.yazi.git
