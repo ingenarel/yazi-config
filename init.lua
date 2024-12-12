@@ -1,5 +1,3 @@
-require("omp"):setup()
-
 function Linemode:size_and_mtime()
 	local year = os.date("%Y")
 	local time = (self._file.cha.modified or 0) // 1
