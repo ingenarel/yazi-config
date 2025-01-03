@@ -178,4 +178,14 @@ sort_reverse   = false
 [log]
 enabled = false
 
+[[plugin.prepend_fetchers]]
+id   = "git"
+name = "*"
+run  = "git"
+
+[[plugin.prepend_fetchers]]
+id   = "git"
+name = "*/"
+run  = "git"
+
 [headsup]
