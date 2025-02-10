@@ -1,5 +1,12 @@
-[plugin]
-deps = [{ use = "Rolv-Apneseth/starship", rev = "af8bf6f" }, { use = "yazi-rs/plugins:git", rev = "02d18be" }]
+[[plugin.deps]]
+use = "Rolv-Apneseth/starship"
+rev = "af8bf6f"
+hash = "d1fee6d0f74cb52d4e031dc6b9207f31"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "02d18be"
+hash = "4d6a07559118975e2dee983d27474d70"
 
 [flavor]
 deps = []
