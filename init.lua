@@ -14,3 +14,4 @@ function Linemode:size_and_mtime()
 end
 require("starship"):setup()
 require("git"):setup()
+require("relative-motions"):setup({ show_numbers = "relative", show_motion = true, enter_mode = "cache_or_first" })
