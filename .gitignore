@@ -1,2 +1,1 @@
-plugins/starship.yazi
-plugins/git.yazi
+plugins/*
