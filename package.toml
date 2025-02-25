@@ -13,5 +13,10 @@ use = "dedukun/relative-motions"
 rev = "a1466a9"
 hash = "26d7fd10e163e0624d733c067eba4b61"
 
+[[plugin.deps]]
+use = "Sonico98/exifaudio"
+rev = "d794614"
+hash = "a8e15d3c21c02a5af41d46ed04778a02"
+
 [flavor]
 deps = []
